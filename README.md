@@ -1,4 +1,4 @@
-[nested_json_file.json](https://github.com/user-attachments/files/23673018/nested_json_file.json)# Pyspark_Assignment
+# Pyspark_Assignment
 
 # Question 1
 ### 1.Create DataFrame as purchase_data_df,  product_data_df with custom schema with the below data 
@@ -106,6 +106,8 @@ output
 
 # 4. Question
 
+Json file Download Link: [nested_json_file.json](https://github.com/user-attachments/files/23673018/nested_json_file.json)
+
 ### 1. Read JSON file provided in the attachment using the dynamic function
 <img width="1386" height="211" alt="image" src="https://github.com/user-attachments/assets/d7d40ba0-ca78-4d83-b0b0-d285ede2c0e7" />
 output
@@ -167,16 +169,87 @@ Output
 
 
 
+# 5. Question 
+DataSet1:Column names(employee id, employee_name, department, State, salary, Age) 
+((11,“james”,” D101”,”ny”,9000,34)), 
+(12,”michel”,” D101”,”ny”,8900,32), 
+(13,“robert”,” D102”,”ca”,7900,29), 
+(14,“scott”,” D103”,”ca”,8000,36), 
+(15,“jen”,” D102”,”ny”,9500,38), 
+(16,”jeff”,” D103”,”uk”,9100,35), 
+(17,“maria”,” D101”,”ny”,7900,40)) 
 
+Dataset2:Column names(dept_id, dept_name) 
+((“D101”,”sales”), 
+(“D102”,”finance”), 
+(”D103”,”marketing”), 
+(“D104”,”hr”), 
+(“D105”,”support”)) 
+ 
+Dataset3: Column names(country_code, country_name) 
+((“ny”,”newyork”), 
+(“ca”,”California”), 
+(“uk”,”Russia)) 
 
+### 1. create all 3 data frames as employee_df, department_df, country_df with custom schema defined in dynamic way 
+<img width="1433" height="925" alt="image" src="https://github.com/user-attachments/assets/39ec9a9f-af23-49d0-8782-9750c0597021" />
 
+### 2. Find avg salary of each department 
+<img width="1330" height="97" alt="image" src="https://github.com/user-attachments/assets/3f36193a-23da-4054-9b90-917fe81b41e7" />
 
+Output
+<img width="1073" height="135" alt="image" src="https://github.com/user-attachments/assets/4d4661f5-4350-49e0-a6e4-ae0ce426643f" />
 
+### 3. Find the employee’s name and department name whose name starts with ‘m’  
+<img width="1560" height="83" alt="image" src="https://github.com/user-attachments/assets/013d3f93-ee00-4272-897e-b49d8924debe" />
 
+Output
+<img width="997" height="107" alt="image" src="https://github.com/user-attachments/assets/9d289658-ba32-4dff-af50-e8f5974ef06a" />
 
+### 4. Create another new column in  employee_df as a bonus by multiplying employee salary *2 
+<img width="1073" height="38" alt="image" src="https://github.com/user-attachments/assets/1b0366c4-3808-48c4-b8a5-42e72db11a61" />
 
+Output
+<img width="1087" height="206" alt="image" src="https://github.com/user-attachments/assets/7fed9050-651f-4712-8844-9ccf922e3ea5" />
 
+### 5. Reorder the column names of employee_df columns as (employee_id,employee_name,salary,State,Age,department,bonus) 
+<img width="1323" height="37" alt="image" src="https://github.com/user-attachments/assets/9f7cb28c-b27b-4e34-96a8-7e102110210d" />
 
+Output
+<img width="1317" height="206" alt="image" src="https://github.com/user-attachments/assets/a621e4b4-0763-4cc7-986d-21b7a4460949" />
+
+### 6. Give the result of an inner join, left join, and right join when joining employee_df with department_df in a dynamic way 
+
+inner join
+<img width="1367" height="122" alt="image" src="https://github.com/user-attachments/assets/3ab3a5a8-c372-4b9a-910a-5b1a8ff87d08" />
+
+Output
+<img width="1502" height="218" alt="image" src="https://github.com/user-attachments/assets/be428178-9d41-48ac-9927-561d1bb7ee2d" />
+
+left join
+<img width="1182" height="77" alt="image" src="https://github.com/user-attachments/assets/2a9ccab7-6f0b-4086-8067-f71af3b8ef03" />
+
+Output
+<img width="1416" height="227" alt="image" src="https://github.com/user-attachments/assets/869f9955-9345-485f-b2e4-474b5e89ef0e" />
+
+right join
+<img width="1155" height="67" alt="image" src="https://github.com/user-attachments/assets/645d88f9-71ec-4b7a-8941-4101097cb289" />
+
+Output
+<img width="1323" height="262" alt="image" src="https://github.com/user-attachments/assets/cb53eb89-c15e-4559-bbf2-5a328c10202c" />
+
+### 7. Derive a new data frame with country_name instead of State in employee_df  
+##### Eg(11,“james”,”D101”,”newyork”,8900,32) 
+<img width="1150" height="202" alt="image" src="https://github.com/user-attachments/assets/374be50c-29f8-4878-8756-f5ee0ce13ae8" />
+
+Output
+<img width="1321" height="198" alt="image" src="https://github.com/user-attachments/assets/7063630c-a1c7-4954-9d0e-ee2f0e2c00b3" />
+
+### 8. convert all the column names into lowercase from the result of question 7in a dynamic way, add the load_date column with the current date 
+<img width="1332" height="233" alt="image" src="https://github.com/user-attachments/assets/919afeac-c25e-40e6-91dc-f03f85d024d4" />
+
+Output
+<img width="1323" height="222" alt="image" src="https://github.com/user-attachments/assets/8c887079-a764-4a74-9fd3-8adbee4a5d6c" />
 
 
 

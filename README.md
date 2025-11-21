@@ -1,4 +1,4 @@
-# Pyspark_Assignment
+[nested_json_file.json](https://github.com/user-attachments/files/23673018/nested_json_file.json)# Pyspark_Assignment
 
 # Question 1
 ### 1.Create DataFrame as purchase_data_df,  product_data_df with custom schema with the below data 
@@ -101,6 +101,91 @@ output
 
 output
 <img width="1217" height="222" alt="image" src="https://github.com/user-attachments/assets/633fd9fd-6e3e-433c-956d-408e3df75364" />
+
+
+
+# 4. Question
+
+### 1. Read JSON file provided in the attachment using the dynamic function
+<img width="1386" height="211" alt="image" src="https://github.com/user-attachments/assets/d7d40ba0-ca78-4d83-b0b0-d285ede2c0e7" />
+output
+<img width="1196" height="285" alt="image" src="https://github.com/user-attachments/assets/333b85e2-a839-4049-bf1b-0d21746dd543" />
+
+### 2. Flatten the custom-schema JSON
+<img width="1152" height="288" alt="image" src="https://github.com/user-attachments/assets/f4561ffa-8e7d-406e-bbd5-6667217ed672" />
+output
+<img width="1310" height="137" alt="image" src="https://github.com/user-attachments/assets/19b9c88c-c947-4769-9bb2-1ec2e4967d71" />
+
+### 3. find out the record count when flattened and when it's not flattened(find out the difference why you are getting more count)
+<img width="1283" height="420" alt="image" src="https://github.com/user-attachments/assets/51ae1230-3901-4b9e-8124-548d7df3b7b3" />
+
+output
+<img width="1043" height="170" alt="image" src="https://github.com/user-attachments/assets/379cd557-7935-409b-af7f-dcd4ac3cf908" />
+
+
+
+### 4. Differentiate the difference using explode, explode outer, posexplode functions 
+
+#### explode
+<img width="1060" height="70" alt="image" src="https://github.com/user-attachments/assets/61ce4292-8b15-4bb8-811b-a034a417f0e0" />
+
+output
+<img width="995" height="148" alt="image" src="https://github.com/user-attachments/assets/24c348d8-4f85-4bcc-9e95-34c5789551cb" />
+
+##### explode outer
+<img width="1340" height="70" alt="image" src="https://github.com/user-attachments/assets/36bec68b-52a0-403d-a101-92997d2dab36" />
+
+output
+<img width="1031" height="157" alt="image" src="https://github.com/user-attachments/assets/4ebc1ccf-b28c-4843-8cb4-420907e084c6" />
+
+##### posexplode functions
+<img width="1215" height="68" alt="image" src="https://github.com/user-attachments/assets/c756875d-919f-468f-be11-7f958e689ef2" />
+
+output
+<img width="1157" height="153" alt="image" src="https://github.com/user-attachments/assets/52177677-d9a2-47db-992e-70bbf02e6bcc" />
+
+### 5. Filter the id which is equal to 0001  
+<img width="1035" height="43" alt="image" src="https://github.com/user-attachments/assets/59497696-fdc5-41fb-a1fb-fd5a279b0b82" />
+
+Output
+<img width="937" height="63" alt="image" src="https://github.com/user-attachments/assets/1e473606-9578-44f3-9241-3d0f8d946489" />
+
+### 6. convert the column names from camel case to snake case 
+<img width="1467" height="151" alt="image" src="https://github.com/user-attachments/assets/6dc45982-c6df-4753-8552-a849f1106f01" />
+
+### 7. Add a new column named load_date with the current date
+<img width="972" height="42" alt="image" src="https://github.com/user-attachments/assets/108a488f-6718-401e-a372-e9f502c842f0" />
+
+Output
+<img width="1182" height="138" alt="image" src="https://github.com/user-attachments/assets/828682de-b66b-4330-b88f-b14b5f8ff226" />
+
+### 8. create 3 new columns as year, month, and day from the load_date column 
+<img width="1247" height="96" alt="image" src="https://github.com/user-attachments/assets/d5135c24-a635-4b00-bb6b-4d1a097e7d0f" />
+
+Output
+<img width="1060" height="142" alt="image" src="https://github.com/user-attachments/assets/7d47eb13-9cff-40d5-a6d1-1047585a5eb9" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

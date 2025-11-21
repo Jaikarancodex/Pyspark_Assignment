@@ -32,6 +32,11 @@ Output
 <img width="1500" height="181" alt="image" src="https://github.com/user-attachments/assets/ca142297-2ced-423b-85bb-70defc611d71" />
 
 ### 3.Find customers who upgraded from product iphone13 to product iphone14 
+<img width="1657" height="417" alt="image" src="https://github.com/user-attachments/assets/797ba93e-0eae-43ca-800a-4eb2dd2a443c" />
+Output
+<img width="1490" height="182" alt="image" src="https://github.com/user-attachments/assets/90cf8759-cf1e-467d-af63-e6d9b53a176e" />
+
+
 
 
 

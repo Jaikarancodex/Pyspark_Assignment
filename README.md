@@ -1,4 +1,6 @@
 # Pyspark_Assignment
+
+# Question 1
 ### 1.Create DataFrame as purchase_data_df,  product_data_df with custom schema with the below data 
 Dataset: Column names["customer", "product_model"] : 
 
@@ -42,9 +44,37 @@ Output
 output
 <img width="1717" height="117" alt="image" src="https://github.com/user-attachments/assets/cd49bc29-cdd8-4c89-a503-961a62556f84" />
 
+# Question 2
+DataSet:Column(“card_number”) ("1234567891234567",), ("5678912345671234",), ("9123456712345678",), ("1234567812341122",), ("1234567812341342",)
+### 1.Create a Dataframe as credit_card_df with different read methods
+<img width="1867" height="317" alt="image" src="https://github.com/user-attachments/assets/9c99c2a0-16bd-4753-8b43-0ccec628f668" />
 
+B) Using spark.read.csv()
+<img width="1657" height="57" alt="image" src="https://github.com/user-attachments/assets/8ddf6886-9946-4597-b6b3-67c84b85f7d6" />
 
+C) Using spark.read.text()
+<img width="1636" height="52" alt="image" src="https://github.com/user-attachments/assets/0b944e9d-1f9b-49d0-90bb-677ad2c1ca1c" />
 
+### 2. Print number of partitions
+<img width="1051" height="60" alt="image" src="https://github.com/user-attachments/assets/2ea3f88c-d02a-4355-b4cf-3127b34af92a" />
+output
+<img width="1155" height="37" alt="image" src="https://github.com/user-attachments/assets/77b7560f-b273-47a0-a734-aada0f2b2019" />
+
+### 3. Increase partition size to 5
+<img width="1230" height="71" alt="image" src="https://github.com/user-attachments/assets/cebd9c7a-01cd-4e49-9ba1-46c9f880291e" />
+output
+<img width="1112" height="30" alt="image" src="https://github.com/user-attachments/assets/fc29ead1-aa96-4f7a-afec-5ae54500805b" />
+
+### 4. Decrease partition size back to original
+<img width="1586" height="80" alt="image" src="https://github.com/user-attachments/assets/8b29ccd9-1d9b-42da-9159-c25acccb4e21" />
+
+output
+<img width="1573" height="42" alt="image" src="https://github.com/user-attachments/assets/559cd0c7-5e2b-41c8-88cc-fab0274088da" />
+
+### 5. Create UDF to mask card numbers except last 4 digits & 6. Output should have 2 columns: card_number, masked_card_number
+<img width="1820" height="502" alt="image" src="https://github.com/user-attachments/assets/af15a261-24a1-4f06-96c4-b536546b08b4" />
+output
+<img width="1786" height="177" alt="image" src="https://github.com/user-attachments/assets/fab61d72-be67-4971-ae63-6892828444ea" />
 
 
 

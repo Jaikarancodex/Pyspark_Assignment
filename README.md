@@ -35,7 +35,7 @@
 #### code
 ![purchase_output](https://github.com/user-attachments/assets/762ce4f9-9ca3-44d1-9a78-fe3ba936b52d)
 
-### Output
+#### Output
 ![purchase_output2](https://github.com/user-attachments/assets/b4cc5c5f-40e4-417f-9c0c-283bbb26db96)
 
 ---
@@ -57,6 +57,8 @@
 
 #### code
 ![upgrade_input](https://github.com/user-attachments/assets/797ba93e-0eae-43ca-800a-4eb2dd2a443c)
+
+#### Output
 ![upgrade_output](https://github.com/user-attachments/assets/90cf8759-cf1e-467d-af63-e6d9b53a176e)
 
 ---
@@ -67,6 +69,8 @@
 
 #### code
 ![all_models_input](https://github.com/user-attachments/assets/4992972d-c6df-45d0-99ad-759108519708)
+
+#### Output
 ![all_models_output](https://github.com/user-attachments/assets/cd49bc29-cdd8-4c89-a503-961a62556f84)
 
 ---
@@ -100,6 +104,8 @@
 
 #### code
 ![partitions_cmd](https://github.com/user-attachments/assets/2ea3f88c-d02a-4355-b4cf-3127b34af92a)
+
+#### Output
 ![partitions_out](https://github.com/user-attachments/assets/77b7560f-b273-47a0-a734-aada0f2b2019)
 
 ---
@@ -108,6 +114,8 @@
 
 #### code
 ![repartition5](https://github.com/user-attachments/assets/cebd9c7a-01cd-4e49-9ba1-46c9f880291e)
+
+#### Output
 ![repartition5_out](https://github.com/user-attachments/assets/fc29ead1-aa96-4f7a-afec-5ae54500805b)
 
 ---
@@ -116,6 +124,8 @@
 
 #### code
 ![repartition_orig](https://github.com/user-attachments/assets/8b29ccd9-1d9b-42da-9159-c25acccb4e21)
+
+#### Output
 ![repartition_orig_out](https://github.com/user-attachments/assets/559cd0c7-5e2b-41c8-88cc-fab0274088da)
 
 ---
@@ -124,6 +134,8 @@
 
 #### code
 ![mask_udf](https://github.com/user-attachments/assets/af15a261-24a1-4f06-96c4-b536546b08b4)
+
+#### Output
 ![mask_output](https://github.com/user-attachments/assets/fab61d72-be67-4971-ae63-6892828444ea)
 
 ---
@@ -146,6 +158,8 @@
 
 #### code
 ![struct_schema](https://github.com/user-attachments/assets/a3cb5c5b-7751-4748-aaa5-053309ffc7e2)
+
+#### Output
 ![struct_schema_out](https://github.com/user-attachments/assets/963725eb-6b02-43f0-ae5a-a70d67bf7e84)
 
 ---
@@ -154,6 +168,8 @@
 
 #### code
 ![rename_cols](https://github.com/user-attachments/assets/e6a8fb31-de81-4d71-98df-1173bd90e35a)
+
+#### Output
 ![rename_out](https://github.com/user-attachments/assets/b232f211-7566-4904-966d-67eb36918ea8)
 
 ---
@@ -162,6 +178,8 @@
 
 #### code
 ![actions_last7](https://github.com/user-attachments/assets/123e49b7-2480-41a9-9816-75b7e656c024)
+
+#### Output
 ![actions_last7_out](https://github.com/user-attachments/assets/08d6cf27-3496-4435-954a-efdf37f917c6)
 
 ---
@@ -171,6 +189,8 @@
 
 #### code
 ![to_date](https://github.com/user-attachments/assets/a4579518-7794-4a3a-8ba2-8fd7769d850f)
+
+#### Output
 ![to_date_out](https://github.com/user-attachments/assets/633fd9fd-6e3e-433c-956d-408e3df75364)
 
 ---
@@ -183,6 +203,8 @@
 
 #### code
 ![json_read](https://github.com/user-attachments/assets/d7d40ba0-ca78-4d83-b0b0-d285ede2c0e7)
+
+#### Output
 ![json_read_out](https://github.com/user-attachments/assets/333b85e2-a839-4049-bf1b-0d21746dd543)
 
 ---
@@ -191,6 +213,8 @@
 
 #### code
 ![flatten](https://github.com/user-attachments/assets/f4561ffa-8e7d-406e-bbd5-6667217ed672)
+
+#### Output
 ![flatten_out](https://github.com/user-attachments/assets/19b9c88c-c947-4769-9bb2-1ec2e4967d71)
 
 ---
@@ -201,6 +225,8 @@
 
 #### code
 ![count_compare](https://github.com/user-attachments/assets/51ae1230-3901-4b9e-8124-548d7df3b7b3)
+
+#### Output
 ![count_compare_out](https://github.com/user-attachments/assets/379cd557-7935-409b-af7f-dcd4ac3cf908)
 
 ---
@@ -210,14 +236,20 @@
 #### code
 **explode:** drops rows when array is null, expands each element. 
 ![explode_cmd](https://github.com/user-attachments/assets/61ce4292-8b15-4bb8-811b-a034a417f0e0)
+
+#### Output
 ![explode_out](https://github.com/user-attachments/assets/24c348d8-4f85-4bcc-9e95-34c5789551cb)
 
 **explode_outer:** keeps rows even if array is null (fills null).  
 ![explode_outer_cmd](https://github.com/user-attachments/assets/36bec68b-52a0-403d-a101-92997d2dab36)
+
+#### Output
 ![explode_outer_out](https://github.com/user-attachments/assets/4ebc1ccf-b28c-4843-8cb4-420907e084c6)
 
 **posexplode:** returns (pos, element) pairs where pos is index.
 ![posexplode_cmd](https://github.com/user-attachments/assets/c756875d-919f-468f-be11-7f958e689ef2)
+
+#### Output
 ![posexplode_out](https://github.com/user-attachments/assets/52177677-d9a2-47db-992e-70bbf02e6bcc)
 
 ---
@@ -228,6 +260,8 @@
 
 #### code
 ![filter_id_cmd](https://github.com/user-attachments/assets/59497696-fdc5-41fb-a1fb-fd5a279b0b82)
+
+#### Output
 ![filter_id_out](https://github.com/user-attachments/assets/1e473606-9578-44f3-9241-3d0f8d946489)
 
 ---
@@ -243,6 +277,8 @@
 
 #### code
 ![load_date_cmd](https://github.com/user-attachments/assets/108a488f-6718-401e-a372-e9f502c842f0)
+
+#### Output
 ![load_date_out](https://github.com/user-attachments/assets/828682de-b66b-4330-b88f-b14b5f8ff226)
 
 ---
@@ -250,8 +286,9 @@
 ### 8. Create `year`, `month`, `day` from `load_date`
 
 #### code
-
 ![ymd_cmd](https://github.com/user-attachments/assets/d5135c24-a635-4b00-bb6b-4d1a097e7d0f)
+
+#### Output
 ![ymd_out](https://github.com/user-attachments/assets/7d47eb13-9cff-40d5-a6d1-1047585a5eb9)
 
 ---
@@ -301,6 +338,8 @@
 
 #### code
 ![avg_salary_cmd](https://github.com/user-attachments/assets/3f36193a-23da-4054-9b90-917fe81b41e7)
+
+#### Output
 ![avg_salary_out](https://github.com/user-attachments/assets/4d4661f5-4350-49e0-a6e4-ae0ce426643f)
 
 ---
@@ -309,6 +348,8 @@
 
 #### code
 ![starts_m_cmd](https://github.com/user-attachments/assets/013d3f93-ee00-4272-897e-b49d8924debe)
+
+#### Output
 ![starts_m_out](https://github.com/user-attachments/assets/9d289658-ba32-4dff-af50-e8f5974ef06a)
 
 ---
@@ -317,6 +358,8 @@
 
 #### code
 ![bonus_cmd](https://github.com/user-attachments/assets/1b0366c4-3808-48c4-b8a5-42e72db11a61)
+
+#### Output
 ![bonus_out](https://github.com/user-attachments/assets/7fed9050-651f-4712-8844-9ccf922e3ea5)
 
 ---
@@ -325,26 +368,30 @@
 
 #### code
 ![reorder_cmd](https://github.com/user-attachments/assets/9f7cb28c-b27b-4e34-96a8-7e102110210d)
+
+#### Output
 ![reorder_out](https://github.com/user-attachments/assets/a621e4b4-0763-4cc7-986d-21b7a4460949)
 
 ---
 
 ### 6. Inner, Left, Right joins (dynamic) — show outputs
 
-#### code
-Inner join input:
+#### Inner join input:
 ![inner_cmd](https://github.com/user-attachments/assets/3ab3a5a8-c372-4b9a-910a-5b1a8ff87d08)
-Inner join output:
+
+#### Inner join output:
 ![inner_out](https://github.com/user-attachments/assets/be428178-9d41-48ac-9927-561d1bb7ee2d)
 
-Left join input:
+#### Left join input:
 ![left_cmd](https://github.com/user-attachments/assets/2a9ccab7-6f0b-4086-8067-f71af3b8ef03)
-Left join output:
+
+#### Left join output:
 ![left_out](https://github.com/user-attachments/assets/869f9955-9345-485f-b2e4-474b5e89ef0e)
 
-Right join input:
+#### Right join input:
 ![right_cmd](https://github.com/user-attachments/assets/645d88f9-71ec-4b7a-8941-4101097cb289)
-Right join output:
+
+#### Right join output:
 ![right_out](https://github.com/user-attachments/assets/cb53eb89-c15e-4559-bbf2-5a328c10202c)
 
 ---
@@ -353,6 +400,8 @@ Right join output:
 
 #### code
 ![country_replace_cmd](https://github.com/user-attachments/assets/374be50c-29f8-4878-8756-f5ee0ce13ae8)
+
+#### Output
 ![country_replace_out](https://github.com/user-attachments/assets/7063630c-a1c7-4954-9d0e-ee2f0e2c00b3)
 
 ---
@@ -361,6 +410,8 @@ Right join output:
 
 #### code
 ![lowercase_cmd](https://github.com/user-attachments/assets/919afeac-c25e-40e6-91dc-f03f85d024d4)
+
+#### Output
 ![lowercase_out](https://github.com/user-attachments/assets/8c887079-a764-4a74-9fd3-8adbee4a5d6c)
 
 ---

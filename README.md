@@ -77,10 +77,30 @@ output
 <img width="1786" height="177" alt="image" src="https://github.com/user-attachments/assets/fab61d72-be67-4971-ae63-6892828444ea" />
 
 
+# Question 3
+### 1. Create a DataFrame with StructType + StructField
+<img width="1867" height="497" alt="image" src="https://github.com/user-attachments/assets/a3cb5c5b-7751-4748-aaa5-053309ffc7e2" />
 
+output
+<img width="1623" height="222" alt="image" src="https://github.com/user-attachments/assets/963725eb-6b02-43f0-ae5a-a70d67bf7e84" />
 
+### 2. Rename columns dynamically
+<img width="1502" height="248" alt="image" src="https://github.com/user-attachments/assets/e6a8fb31-de81-4d71-98df-1173bd90e35a" />
 
+output
+<img width="1458" height="213" alt="image" src="https://github.com/user-attachments/assets/b232f211-7566-4904-966d-67eb36918ea8" />
 
+### 3. Write a query to calculate the number of actions performed by each user in the last 7 days
+<img width="1872" height="353" alt="image" src="https://github.com/user-attachments/assets/123e49b7-2480-41a9-9816-75b7e656c024" />
+
+output
+<img width="1085" height="133" alt="image" src="https://github.com/user-attachments/assets/08d6cf27-3496-4435-954a-efdf37f917c6" />
+
+### 4. Convert time_stamp → login_date (YYYY-MM-DD, DateType)
+<img width="1698" height="232" alt="image" src="https://github.com/user-attachments/assets/a4579518-7794-4a3a-8ba2-8fd7769d850f" />
+
+output
+<img width="1217" height="222" alt="image" src="https://github.com/user-attachments/assets/633fd9fd-6e3e-433c-956d-408e3df75364" />
 
 
 

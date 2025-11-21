@@ -27,16 +27,20 @@ Dataset: Column Names: ["product_model"]
 
 ### 2.Find the customers who have bought only iphone13 
 
-<img width="1667" height="336" alt="image" src="https://github.com/user-attachments/assets/69cf09fa-6dc0-416a-ba9c-28f603e05bc0" />
+<img width="1640" height="372" alt="image" src="https://github.com/user-attachments/assets/eb16f988-fd55-4dd2-9e60-ff897cc10212" />
+
 Output
-<img width="1500" height="181" alt="image" src="https://github.com/user-attachments/assets/ca142297-2ced-423b-85bb-70defc611d71" />
+<img width="1617" height="123" alt="image" src="https://github.com/user-attachments/assets/090105e6-499b-43f6-9f71-9a09fc327e89" />
 
 ### 3.Find customers who upgraded from product iphone13 to product iphone14 
 <img width="1657" height="417" alt="image" src="https://github.com/user-attachments/assets/797ba93e-0eae-43ca-800a-4eb2dd2a443c" />
 Output
 <img width="1490" height="182" alt="image" src="https://github.com/user-attachments/assets/90cf8759-cf1e-467d-af63-e6d9b53a176e" />
 
-
+### 4.Find customers who have bought all models in the new Product Data 
+<img width="1868" height="456" alt="image" src="https://github.com/user-attachments/assets/4992972d-c6df-45d0-99ad-759108519708" />
+output
+<img width="1717" height="117" alt="image" src="https://github.com/user-attachments/assets/cd49bc29-cdd8-4c89-a503-961a62556f84" />
 
 
 

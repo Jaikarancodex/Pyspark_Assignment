@@ -1,8 +1,8 @@
-# PySpark Assignment 
+# 🚀 PySpark Assignment 
 
 ---
 
-## Question 1
+## 🎯 Question 1
 
 ### 1. Create DataFrame as `purchase_data_df`, `product_data_df` with custom schema
 
@@ -32,7 +32,7 @@
 ("iphone14")
 ```
 
-#### code
+#### Code
 ![purchase_output](https://github.com/user-attachments/assets/762ce4f9-9ca3-44d1-9a78-fe3ba936b52d)
 
 #### Output
@@ -55,7 +55,7 @@
 
 **Description:** Customers who at any time purchased `iphone13` and later purchased `iphone14`. If timestamps/order not available, interpret as customers who have both `iphone13` and `iphone14`.
 
-#### code
+#### Code
 ![upgrade_input](https://github.com/user-attachments/assets/797ba93e-0eae-43ca-800a-4eb2dd2a443c)
 
 #### Output
@@ -67,7 +67,7 @@
 
 **Description:** Customers whose purchased product_model set covers every model in `product_data_df`.
 
-#### code
+#### Code
 ![all_models_input](https://github.com/user-attachments/assets/4992972d-c6df-45d0-99ad-759108519708)
 
 #### Output
@@ -75,7 +75,7 @@
 
 ---
 
-## Question 2 — Credit Card Masking
+## 🎯 Question 2 — Credit Card Masking
 
 **Dataset — `card_number`:**
 ```
@@ -88,7 +88,7 @@
 
 ### 1. Create `credit_card_df` (different read methods)
 
-#### code
+#### Code
 **A) From python list:**
 ![read_methods](https://github.com/user-attachments/assets/9c99c2a0-16bd-4753-8b43-0ccec628f668)
 
@@ -102,7 +102,7 @@
 
 ### 2. Print number of partitions
 
-#### code
+#### Code
 ![partitions_cmd](https://github.com/user-attachments/assets/2ea3f88c-d02a-4355-b4cf-3127b34af92a)
 
 #### Output
@@ -112,7 +112,7 @@
 
 ### 3. Increase partitions to 5
 
-#### code
+#### Code
 ![repartition5](https://github.com/user-attachments/assets/cebd9c7a-01cd-4e49-9ba1-46c9f880291e)
 
 #### Output
@@ -122,7 +122,7 @@
 
 ### 4. Decrease partitions back to original
 
-#### code
+#### Code
 ![repartition_orig](https://github.com/user-attachments/assets/8b29ccd9-1d9b-42da-9159-c25acccb4e21)
 
 #### Output
@@ -132,7 +132,7 @@
 
 ### 5. Create UDF to mask card numbers except last 4 digits
 
-#### code
+#### Code
 ![mask_udf](https://github.com/user-attachments/assets/af15a261-24a1-4f06-96c4-b536546b08b4)
 
 #### Output
@@ -140,7 +140,7 @@
 
 ---
 
-## Question 3
+## 🎯 Question 3
 
 ### 1. Create a DataFrame with `StructType` + `StructField`
 
@@ -156,7 +156,7 @@
 (8, 102, 'click',  '2023-09-12 13:10:00')
 ```
 
-#### code
+#### Code
 ![struct_schema](https://github.com/user-attachments/assets/a3cb5c5b-7751-4748-aaa5-053309ffc7e2)
 
 #### Output
@@ -166,7 +166,7 @@
 
 ### 2. Rename columns dynamically
 
-#### code
+#### Code
 ![rename_cols](https://github.com/user-attachments/assets/e6a8fb31-de81-4d71-98df-1173bd90e35a)
 
 #### Output
@@ -176,7 +176,7 @@
 
 ### 3. Number of actions by each user in the last 7 days
 
-#### code
+#### Code
 ![actions_last7](https://github.com/user-attachments/assets/123e49b7-2480-41a9-9816-75b7e656c024)
 
 #### Output
@@ -187,7 +187,7 @@
 ### 4. Convert `time_stamp` → `login_date` (YYYY-MM-DD, DateType)
 
 
-#### code
+#### Code
 ![to_date](https://github.com/user-attachments/assets/a4579518-7794-4a3a-8ba2-8fd7769d850f)
 
 #### Output
@@ -195,13 +195,13 @@
 
 ---
 
-## Question 4 — Nested JSON file processing
+## 🎯 Question 4 — Nested JSON file processing
 
 **JSON file (uploaded):** `/mnt/data/nested_json_file.json`
 
 **(You can download / inspect that file at the above path.)**
 
-#### code
+#### Code
 ![json_read](https://github.com/user-attachments/assets/d7d40ba0-ca78-4d83-b0b0-d285ede2c0e7)
 
 #### Output
@@ -211,7 +211,7 @@
 
 ### 2. Flatten the custom-schema JSON
 
-#### code
+#### Code
 ![flatten](https://github.com/user-attachments/assets/f4561ffa-8e7d-406e-bbd5-6667217ed672)
 
 #### Output
@@ -223,7 +223,7 @@
 
 **Explanation:** The `employees` field is an array. Flattening with `explode` creates one row per array element, increasing total rows. In the uploaded file there are 3 employee elements, so flattened rows > original rows.
 
-#### code
+#### Code
 ![count_compare](https://github.com/user-attachments/assets/51ae1230-3901-4b9e-8124-548d7df3b7b3)
 
 #### Output
@@ -233,7 +233,7 @@
 
 ### 4. Difference using `explode`, `explode_outer`, `posexplode`
 
-#### code
+#### Code
 **explode:** drops rows when array is null, expands each element. 
 ![explode_cmd](https://github.com/user-attachments/assets/61ce4292-8b15-4bb8-811b-a034a417f0e0)
 
@@ -258,7 +258,7 @@
 
 **Note:** Uploaded JSON has `id: 1001`, not `"0001"`. Filtering `"0001"` returns zero rows.
 
-#### code
+#### Code
 ![filter_id_cmd](https://github.com/user-attachments/assets/59497696-fdc5-41fb-a1fb-fd5a279b0b82)
 
 #### Output
@@ -268,14 +268,14 @@
 
 ### 6. Convert camelCase column names → snake_case
 
-#### code
+#### Code
 ![camel_to_snake](https://github.com/user-attachments/assets/6dc45982-c6df-4753-8552-a849f1106f01)
 
 ---
 
 ### 7. Add `load_date` = current date
 
-#### code
+#### Code
 ![load_date_cmd](https://github.com/user-attachments/assets/108a488f-6718-401e-a372-e9f502c842f0)
 
 #### Output
@@ -285,7 +285,7 @@
 
 ### 8. Create `year`, `month`, `day` from `load_date`
 
-#### code
+#### Code
 ![ymd_cmd](https://github.com/user-attachments/assets/d5135c24-a635-4b00-bb6b-4d1a097e7d0f)
 
 #### Output
@@ -293,7 +293,7 @@
 
 ---
 
-## Question 5 — Employee / Department / Country joins & transformations
+## 🎯 Question 5 — Employee / Department / Country joins & transformations
 
 ### Datasets
 
@@ -329,14 +329,14 @@
 ### 1. Create `employee_df`, `department_df`, `country_df` with dynamic custom schema
 (Use `StructType` / `StructField` as shown in earlier examples)
 
-#### code
+#### Code
 ![employee_schema](https://github.com/user-attachments/assets/39ec9a9f-af23-49d0-8782-9750c0597021)
 
 ---
 
 ### 2. Average salary per department
 
-#### code
+#### Code
 ![avg_salary_cmd](https://github.com/user-attachments/assets/3f36193a-23da-4054-9b90-917fe81b41e7)
 
 #### Output
@@ -346,7 +346,7 @@
 
 ### 3. Employee name + department name where name starts with 'm'
 
-#### code
+#### Code
 ![starts_m_cmd](https://github.com/user-attachments/assets/013d3f93-ee00-4272-897e-b49d8924debe)
 
 #### Output
@@ -356,7 +356,7 @@
 
 ### 4. Add `bonus` = salary * 2
 
-#### code
+#### Code
 ![bonus_cmd](https://github.com/user-attachments/assets/1b0366c4-3808-48c4-b8a5-42e72db11a61)
 
 #### Output
@@ -366,7 +366,7 @@
 
 ### 5. Reorder columns as (employee_id, employee_name, salary, State, Age, department, bonus)
 
-#### code
+#### Code
 ![reorder_cmd](https://github.com/user-attachments/assets/9f7cb28c-b27b-4e34-96a8-7e102110210d)
 
 #### Output
@@ -398,7 +398,7 @@
 
 ### 7. Replace `State` with `country_name` in `employee_df`
 
-#### code
+#### Code
 ![country_replace_cmd](https://github.com/user-attachments/assets/374be50c-29f8-4878-8756-f5ee0ce13ae8)
 
 #### Output
@@ -408,7 +408,7 @@
 
 ### 8. Convert column names to lowercase (dynamic) and add `load_date`
 
-#### code
+#### Code
 ![lowercase_cmd](https://github.com/user-attachments/assets/919afeac-c25e-40e6-91dc-f03f85d024d4)
 
 #### Output

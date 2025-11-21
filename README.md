@@ -2,7 +2,7 @@
 
 ---
 
-## 🎯 Question 1
+# 🎯 Question 1
 
 ### ✔ 1. Create DataFrame as `purchase_data_df`, `product_data_df` with custom schema
 
@@ -75,7 +75,7 @@
 
 ---
 
-## 🎯 Question 2 — Credit Card Masking
+# 🎯 Question 2 — Credit Card Masking
 
 **Dataset — `card_number`:**
 ```
@@ -140,7 +140,7 @@
 
 ---
 
-## 🎯 Question 3
+# 🎯 Question 3
 
 ### ✔ 1. Create a DataFrame with `StructType` + `StructField`
 
@@ -195,7 +195,7 @@
 
 ---
 
-## 🎯 Question 4 — Nested JSON file processing
+# 🎯 Question 4 — Nested JSON file processing
 
 **JSON file (uploaded):** `/mnt/data/nested_json_file.json`
 
@@ -293,7 +293,7 @@
 
 ---
 
-## 🎯 Question 5 — Employee / Department / Country joins & transformations
+# 🎯 Question 5 — Employee / Department / Country joins & transformations
 
 ### Datasets
 
